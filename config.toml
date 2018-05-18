@@ -1,0 +1,38 @@
+# Hugo parameters
+baseURL = "https://andres.reveronmolina.me/"
+languageCode = "en-us"
+title = "Andrés Reverón Molina"
+theme = "coder"
+
+# Theme parameters
+[params]
+    author = "Andrés Reverón Molina"
+    info = "Front-end dev"
+    description = "Andrés Reverón's personal website"
+    keywords = "blog,developer,personal"
+    hideCredits = false
+    hideCopyright = true
+
+# Social links
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/systemallica"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 2
+    url = "https://www.linkedin.com/in/andres-reveron/"
+[[params.social]]
+    name = "Email"
+    weight = 3
+    url = "mailto:andres@reveronmolina.me"
+[[params.social]]
+    name = "Telegram"
+    weight = 4
+    url = "https://telegram.me/systemallica"
+
+# Menu links
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
