@@ -1,17 +1,20 @@
 # Hugo parameters
 baseURL = "https://andres.reveronmolina.me/"
-languageCode = "en-us"
+languageCode = "en"
 title = "Andrés Reverón Molina"
 theme = "coder"
+canonifyurls = true 
 
 # Theme parameters
 [params]
     author = "Andrés Reverón Molina"
     info = "Front-end dev"
     description = "Andrés Reverón's personal website"
-    keywords = "blog,developer,personal"
+    keywords = "blog,developer,personal"      
     hideCredits = true
     hideCopyright = true
+
+    # footercontent = "Enter a text here."
 
 # Social links
 [[params.social]]
