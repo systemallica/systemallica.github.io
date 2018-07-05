@@ -10,7 +10,7 @@ theme = "coder"
     info = "Front-end dev"
     description = "Andrés Reverón's personal website"
     keywords = "blog,developer,personal"
-    hideCredits = false
+    hideCredits = true
     hideCopyright = true
 
 # Social links
