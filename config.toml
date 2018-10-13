@@ -1,9 +1,9 @@
 # Hugo parameters
-baseURL = "https://andres.reveronmolina.me/"
+baseURL = "https://andres.reveronmolina.me"
 languageCode = "en"
 title = "Andrés Reverón Molina"
 theme = "coder"
-canonifyurls = true
+canonifyurls = false
 
 # Theme parameters
 [params]
