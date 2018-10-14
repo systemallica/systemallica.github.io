@@ -1,0 +1,1 @@
+Source code of my personal website. Built with [Hugo](https://gohugo.io/) and using [Coder](https://github.com/luizdepra/hugo-coder) as theme.
