@@ -24,10 +24,6 @@ DefaultContentLanguage = "en"
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
-  [params.logo]
-      logoText = "Andrés Reverón Molina"
-      logoHomeLink = "/"
-
   [languages]
     [languages.en]
       subtitle = "Front-end developer"
@@ -35,6 +31,10 @@ DefaultContentLanguage = "en"
       copyright = ""
       readOtherPosts = "Read other posts"
       keywords = ""
+
+    [languages.en.params.logo]
+      logoText = "Andrés Reverón Molina"
+      logoHomeLink = "/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -52,6 +52,10 @@ DefaultContentLanguage = "en"
       copyright = ""
       readOtherPosts = "Lee otras publicaciones"
       keywords = ""
+
+    [languages.es.params.logo]
+      logoText = "Andrés Reverón Molina"
+      logoHomeLink = "/es"
 
     [languages.es.menu]
       [[languages.es.menu.main]]
