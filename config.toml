@@ -3,6 +3,7 @@ languageCode = "en-us"
 theme = "hello-friend-ng"
 title = "Andrés Reverón Molina"
 enableEmoji = true
+DefaultContentLanguage = "en"
 
 [author]
   name = "Andrés Reverón Molina"
@@ -18,19 +19,50 @@ enableEmoji = true
   keywords = "homepage, blog, science, informatics, development, programming"
   images = [""]
 
-  homeSubtitle = "Front-end Developer"
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
-  subtitle = "Front-end developer"
-  copyright = ""
-  readOtherPosts = "Read other posts"
-
   [params.logo]
-    logoText = "Andrés Reverón Molina"
-    logoHomeLink = "/"
+      logoText = "Andrés Reverón Molina"
+      logoHomeLink = "/"
+
+  [languages]
+    [languages.en]
+      subtitle = "Front-end developer"
+      homeSubtitle = "Front-end Developer"
+      copyright = ""
+      readOtherPosts = "Read other posts"
+      keywords = ""
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Blog"
+        url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+
+    [languages.es]
+      subtitle = "Desarrollador Front-end"
+      homeSubtitle = "Desarrollador Front-end"
+      copyright = ""
+      readOtherPosts = "Lee otras publicaciones"
+      keywords = ""
+
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        identifier = "posts"
+        name = "Blog"
+        url = "/posts"
+      [[languages.es.menu.main]]
+        identifier = "sobre"
+        name = "Sobre mí"
+        url = "/about"
+
 
   # Social icons
   [[params.social]]
@@ -45,13 +77,3 @@ enableEmoji = true
   [[params.social]]
     name = "telegram"
     url  = "https://telegram.me/systemallica"
-
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Blog"
-    url = "/posts"
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
