@@ -4,4 +4,4 @@ Hi, my name is Andrés! I'm a 23 y.o. electronics engineer currently based in Va
 
 I also enjoy making **Android apps**. You can check out some of my projects on my GitLab page.
 
-Feel free to contact me :)
+Feel free to contact me 😄

@@ -1,45 +1,57 @@
-# Hugo parameters
-baseURL = "https://andres.reveronmolina.me"
-languageCode = "en"
+baseurl = "https://andres.reveronmolina.me"
+languageCode = "en-us"
+theme = "hello-friend-ng"
 title = "Andrés Reverón Molina"
-theme = "coder"
-canonifyurls = false
+enableEmoji = true
 
-# Theme parameters
+[author]
+  name = "Andrés Reverón Molina"
+
 [params]
-    author = "Andrés Reverón Molina"
-    info = "Front-end developer"
-    description = "Andrés Reverón's personal website"
-    keywords = "blog,developer,personal"
-    hideCredits = true
-    hideCopyright = true
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02"
 
-    # footercontent = "Enter a text here."
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Andrés Revverón Molina"
+  keywords = "homepage, blog, science, informatics, development, programming"
+  images = [""]
 
-# Social links
-[[params.social]]
-    name = "GitLab"
-    weight = 1
-    icon = "fab fa-gitlab fa-2x"
-    url = "https://gitlab.com/systemallica"
-[[params.social]]
-    name = "LinkedIn"
-    weight = 2
-    icon = "fab fa-linkedin-in fa-2x"
-    url = "https://www.linkedin.com/in/andres-reveron/"
-[[params.social]]
-    name = "Email"
-    weight = 3
-    icon = "fas fa-envelope fa-2x"
-    url = "mailto:andres@reveronmolina.me"
-[[params.social]]
-    name = "Telegram"
-    weight = 4
-    icon = "fab fa-telegram-plane fa-2x"
-    url = "https://telegram.me/systemallica"
+  homeSubtitle = "Front-end Developer"
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
 
-# Menu links
-[[menu.main]]
+  subtitle = "Front-end developer"
+  copyright = ""
+  readOtherPosts = "Read other posts"
+
+  [params.logo]
+    logoText = "Andrés Reverón Molina"
+    logoHomeLink = "/"
+
+  # Social icons
+  [[params.social]]
+    name = "gitlab"
+    url  = "https://gitlab.com/systemallica"
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/andres-reveron"
+  [[params.social]]
+    name = "email"
+    url  = "mailto:andres@reveronmolina.me"
+  [[params.social]]
+    name = "telegram"
+    url  = "https://telegram.me/systemallica"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blog"
+    url = "/posts"
+  [[menu.main]]
+    identifier = "about"
     name = "About"
-    weight = 2
-    url = "/about/"
+    url = "/about"
