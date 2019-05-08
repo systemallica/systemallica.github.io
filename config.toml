@@ -13,6 +13,7 @@ DefaultContentLanguage = "en"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02"
+  customCSS = ["/style.css"]
 
   # Metadata mostly used in document's head
   description = "Homepage and blog by Andrés Revverón Molina"
