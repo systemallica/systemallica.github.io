@@ -1,1 +1,1 @@
-Source code of my personal website. Built with [Hugo](https://gohugo.io/) and using [Coder](https://github.com/luizdepra/hugo-coder) as theme.
+Source code of my personal website. Built with [Hugo](https://gohugo.io/) and using [my own fork](https://github.com/systemallica/hugo-theme-hello-friend-ng) of [Hello friend ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng) as theme.
