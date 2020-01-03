@@ -6,6 +6,7 @@ linktitle: Persisting Angular Portals
 type:
   - post
   - posts
+  - angular
 title: Persisting Angular Portals
 weight: 1
 ---
